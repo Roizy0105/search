@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--tittle-->
+  <title>advanced Search</title>
+  <!--link to bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <!--link to font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="advanced_search.css">
+</head>
+
+<body>
+  <!--nav bar-->
+  <ul>
+    <li class="nav gmail_nav"><a href="https://mail.google.com/mail/u/0/?ogbl#inbox">Gmail</a></li>
+    <li class="nav image_nav"><a href="image.html">Images</a></li>
+    <li class="nav icon-1_nav"><i class="fas fa-th"></i></li>
+    <li class="nav icon-2_nav"><i class="fas fa-user-circle"></i></li>
+  </ul>
+  <a href="index.html">
+    <!--body-->
+    <div class="google">
+      <p style="color:#4885ed;" id="letter_1">G</p>
+      <p style="color:#db3236;" id="letter_2">o</p>
+      <p style="color:#f4c20d;" id="letter_3">o</p>
+      <p style="color:#4885ed;" id="letter_4">g</p>
+      <p style="color:#3cba54;" id="letter_5">l</p>
+      <p style="color:#db3236;" id="letter_6">e</p>
+    </div>
+  </a>
+  <h1>Advanced Search</h1>
+  <div class="line"></div>
+  <!--submiton form-->
+  <form action="https://google.com/search">
+    <label for="all">all these words:</label>
+    <input type="text" name="as_q" id="all">
+    <br>
+    <label for="this">this exact word or phrase:</label>
+    <input type="text" name="as_epq" id="this">
+    <br>
+    <label for="any">any of these words:</label>
+    <input type="text" name="as_oq" id="any">
+    <br>
+    <label for="none">none of these words:</label>
+    <input type="text" name="as_eq" id="none">
+    <br>
+    <input class="button" type="submit" value="Advanced Search">
+  </form>
+</body>
+
+</html>

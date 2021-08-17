@@ -1,0 +1,168 @@
+/*nav styling*/
+.nav {
+  position: absolute;
+  font-size: 15px;
+}
+
+.about_nav {
+  left: 2%;
+  top: 1rem;
+}
+
+.store_nav {
+  left: 6%;
+  top: 1rem;
+}
+
+.gmail_nav {
+  right: 13.5%;
+  top: 1.4rem;
+}
+
+.image_nav {
+  right: 9%;
+  top: 1.4rem;
+}
+
+.icon-1_nav {
+  right: 5%;
+  font-size: 20px;
+  top: 1.4rem;
+}
+
+.icon-2_nav {
+  top: 1rem;
+  right: 1%;
+  font-size: 30px;
+  color: #222;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+/*end of nav styling*/
+/*styling body*/
+.rounded-pill {
+  width: 35rem;
+  height: 3rem;
+  border-color: #9aa0a6;
+  padding-left: 2.5rem;
+  outline: none;
+}
+
+.seach_icon {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  color: #9aa0a6;
+}
+
+.fa-microphone {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.align-middle {
+  position: absolute;
+  left: 9rem;
+  top: 5rem;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px;
+}
+
+.search {
+  position: absolute;
+  right: 9rem;
+  top: 5rem;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px;
+}
+
+.google>h1 {
+  position: absolute;
+  top: 20%;
+  width: 3rem;
+  font-size: 7rem;
+}
+
+#letter_1 {
+  left: 38%;
+}
+
+#letter_2 {
+  left: 43%;
+}
+
+#letter_3 {
+  left: 47.5%;
+}
+
+#letter_4 {
+  left: 52%;
+}
+
+#letter_5 {
+  left: 56.5%;
+}
+
+#letter_6 {
+  left: 58%;
+}
+
+/*style footer*/
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: underline;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 0 20px;
+  height: 3rem;
+  padding-top: .5rem;
+}
+
+.left {
+  justify-content: flex-start;
+  min-width: 30%;
+  order: 1;
+}
+
+.center {
+  justify-content: center;
+  order: 2;
+}
+
+.right {
+  justify-content: flex-end;
+  min-width: 30%;
+  order: 3;
+}

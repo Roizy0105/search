@@ -1,0 +1,57 @@
+/*body styling*/
+.google_1 {
+  position: absolute;
+  top: 1rem;
+  display: flex;
+  left: 1rem;
+  font-size: 20px;
+}
+
+.image_text {
+  position: absolute;
+  top: 38%;
+  left: 57%;
+  color: #4885ed;
+}
+
+.fa-camera {
+  position: absolute;
+  right: 6.5rem;
+  top: 1rem;
+}
+
+.fa-microphone {
+  position: absolute;
+  right: 4rem;
+}
+
+.image_search_icon {
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+}
+
+/*end of body styling*/
+/*footer styling*/
+.image_grid_left {
+  position: absolute;
+  left: 0;
+  min-width: 40%;
+}
+
+.image_footer_privacy {
+  position: absolute;
+  right: -120%;
+}
+
+.image_footer_terms {
+  position: absolute;
+  left: 20%
+}
+
+.image_footer_advanced {
+  position: absolute;
+  right: -60%;
+}
+
+/*footer styling*/
